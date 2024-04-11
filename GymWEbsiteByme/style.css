@@ -1,0 +1,153 @@
+body {
+       
+    font-family: "Trirong", serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('img2.jpg');
+    background-size: cover;
+    /* background-size: cover; for full size image */
+    color: antiquewhite;
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: inline block;
+    /* border: 2px solid rgb(205, 226, 17); */
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.left img {
+    width: 120px;
+    /* 
+    filter: invert(100%);
+    invert funtion kalo img k sada kore dai r sada k kalo */
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    line-height: 5px;
+}
+
+.right {
+    position: absolute;
+    right: 24px;
+    top: 30px;
+    /* border: 2px solid green; */
+    display: inline block;
+
+}
+
+.mid {
+    display: block;
+    width: 53%;
+    margin: 23px auto;
+    /* border: 2px solid rgb(64, 241, 64); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+.btn {
+    margin: 5px;
+    background-color: black;
+    color: aliceblue;
+    padding: 2px 20px;
+    border: 2px solid grey;
+    border-radius: 14px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Trirong", serif;
+}
+
+.btn:hover {
+    background-color: rgb(95, 95, 11);
+}
+
+.container {
+
+    /* border: 2px solid rgb(235, 143, 143);
+     */
+
+    width: 55%;
+
+
+    margin: 6px 10px;
+    padding: px;
+    border-radius: 8px;
+    font-family: "Trirong", serif;
+}
+
+.formGroup input {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 400px;
+    font-family: "Trirong", serif;
+    border-radius: 8px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px auto;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(238, 139, 139);
+    font-size: 30px;
+
+}
+
+.container button {
+    display: block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: aqua;
+    font-size: 22px;
+}
+
+
+section {
+    /* border: 2px solid red; */
+   
+    color: rgb(236, 240, 14);
+    font-size: small;
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Trirong", serif;
+    line-height: 6px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+
+}
