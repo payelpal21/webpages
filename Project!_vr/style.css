@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    background-image: url(./assets/bg2.jpeg);
+    height: 900px;
+    /* width: 1350px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+}
+
+.h2{
+    width: 350px;
+    padding-top:450px ;
+    margin-left: 75px;
+}
+input{
+    height: 25px;
+    margin-left: 75px;
+}
+button{
+    background-color: rgb(250, 156, 33);
+    color: aliceblue;
+    height: 25px;
+    width: 60px;
+    border: none;
+}
+
+.div2{
+    height: 600px;
+    background-color:rgb(221, 174, 20);
+display: flex;
+/* border: 4px solid rgb(165, 20, 20)
+ */
+}
+img{
+    width: 540px;
+    height:600px;
+  margin-left: 380px;
+  opacity: 0.5;
+ 
+   
+}
+.head{
+    width: 350px;
+    padding-top:250px ;
+    margin-left: 75px;
+    
+}
+.p1{
+    width: 350px;
+    margin-left: 75px;
+    margin-bottom: 150px;
+   
+}
+.div3{
+    height: 400px;
+    width: 100%;
+    
+    display: flex; 
+   
+   flex-direction: row;
+   /* border: 4px solid black; */
+
+   
+}
+.divbox1 {
+    /* border: 4px solid black; */
+    background-color: rgb(241, 11, 11);
+    
+    padding: 23px;
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.divbox2 {
+    /* border: 4px solid black; */
+    background-color: rgb(216, 186, 17);
+  
+    padding: 23px;
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    
+}
+.divbox3 {
+    /* border: 4px solid black; */
+    background-color: rgb(17, 16, 16);
+   
+    padding: 23px;
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.divbox4 {
+    /* border: 4px solid black; */
+    background-color: rgb(66, 63, 63);
+    
+    padding: 23px;
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.btn1 {
+    height: 60px;
+    width: 60px;
+    padding: 2px 2px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(231, 11, 11);
+    background-color: rgb(250, 244, 244);
+    cursor: pointer;
+    border-radius: 100%;
+    
+}
+.btn2 {
+    height: 60px;
+    width: 60px;
+    padding: 2px 2px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(202, 166, 7);
+    background-color: rgb(8, 8, 8);
+    cursor: pointer;
+    border-radius: 100%;
+    
+}
+.btn3 {
+    height: 60px;
+    width: 60px;
+    padding: 2px 2px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(250, 244, 244);
+    cursor: pointer;
+    border-radius: 100%;
+    
+}
+.btn4 {
+    height: 60px;
+    width: 60px;
+    padding: 2px 2px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(250, 244, 244);
+    cursor: pointer;
+    border-radius: 100%;
+    
+}
+h1{
+    font-size: 76px;
+}
