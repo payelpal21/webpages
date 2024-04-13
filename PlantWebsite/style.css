@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* display: flex; */
+    /* background-color: aqua; */
+}
+.div1{
+    height: 50px;
+    background-color: rgb(2, 48, 32);
+    display: flex;
+
+}
+
+.div1_1{
+width: 1150px;
+color: rgb(223, 255, 0);
+font-family: "Lora", cursive;
+/* border: 2px solid yellowgreen; */
+font-size: 15px;
+padding-left: 15px;
+font-style: oblique;
+}
+.div1_2{
+    width:200px ;
+    margin-top: 10px;
+    
+}
+.btn{
+    padding: 2px 10px;
+    background-color:   rgb(124, 252, 0);
+    height: 30px;
+    font-weight: bold;
+    color: rgb(69, 75, 27);
+    width: 90px;
+    border: 2px solid  rgb(124, 252, 0);
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .5s;
+}
+.btn:hover{
+background-color: #fff;
+color: rgb(9, 121, 105);
+cursor: pointer;
+}
+
+
+/* css for navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+   
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    height: 60px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+  
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 39px;
+    margin: 3px 6px;
+    filter: invert(100%);
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 25px;
+}
+
+#navbar ul li a{
+    color: rgb(0, 128, 0);
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    position: relative;
+    transition: font-weight 0.2s ease-in 0.2s;
+}
+
+
+#navbar ul li a:hover{
+    
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(2, 48, 32);
+ 
+}
+
+
+
+
+/* css for sliding pictures */
+.div3Slider{
+    width: 100%;
+    height:700px ;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 700px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+
+}
+
+.slide img{
+    width: 100%;
+    height: 700px;
+}
+
+
+
+
+/* css for manual slide navigation */
+.man_navi{
+position: absolute;
+width: 100%;
+margin-top: -40px;
+display: flex;
+justify-content: center;
+
+
+}
+.manual_btn{
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.manual_btn:not(:last-child){
+margin-right: 40px;
+}
+
+.manual_btn:hover{
+    background-color:red ;
+
+}
+
+#radio1:checked ~ .first{
+ 
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+ 
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+ 
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+ 
+    margin-left: -60%;
+}
+#radio5:checked ~ .first{
+ 
+    margin-left: -80%;
+
+}
+
+
+
+/* css for automatic navigation */
+.navigation_auto{
+position: absolute;
+display: flex;
+width: 100%;
+justify-content: center;
+margin-top: 660px;
+
+}
+
+.navigation_auto div{
+    border: 2px solid red;
+    padding: 5px;
+     border-radius: 10px;
+     transition: 2s;
+
+}
+.navigation_auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+
+#radio1:checked ~ .navigation_auto .auto_btn1{
+    background: red;
+}
+#radio2:checked ~ .navigation_auto .auto_btn2{
+    background: red;
+}
+#radio3:checked ~ .navigation_auto .auto_btn3{
+    background: red;
+}
+#radio4:checked ~ .navigation_auto .auto_btn4{
+    background: red;
+}
+#radio5:checked ~ .navigation_auto .auto_btn5{
+    background: red;
+}
