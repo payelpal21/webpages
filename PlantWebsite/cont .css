@@ -113,10 +113,22 @@ hr{
     padding: 1px;
     border: 2px solid black;
     margin: 5px auto;
-    /* background-color: aqua; */
+ 
   
 }
-
+.formGroup textarea {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 400px;
+    font-family: "Trirong", serif;
+    border-radius: 8px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px auto;
+    
+  
+}
 .container button {
     display: block;
     width: 100px;
@@ -126,4 +138,8 @@ hr{
     /* background-color: aqua; */
     border-radius: 20px;
     border: 2px solid black;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: rgb(62, 212, 62);
 }
