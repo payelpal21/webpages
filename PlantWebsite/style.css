@@ -28,20 +28,21 @@ font-style: oblique;
     margin-top: 10px;
     
 }
-.btn a{
+.div1_2 a{
     text-decoration: none;
+      color: rgb(69, 75, 27);
 }
 .btn{
     padding: 2px 10px;
     background-color:   rgb(124, 252, 0);
     height: 30px;
     font-weight: bold;
-    color: rgb(69, 75, 27);
     width: 90px;
     border: 2px solid  rgb(124, 252, 0);
     border-radius: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: .5s;
+    cursor: pointer;
 }
 .btn:hover{
 background-color: #fff;
