@@ -78,3 +78,8 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+button:hover {
+    background-color: rgb(201, 86, 86);
+    color: rgb(0, 36, 30);
+    cursor: pointer;
+}
