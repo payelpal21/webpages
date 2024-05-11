@@ -76,4 +76,5 @@ button{
     width: 100px;
     border: 2px solid white;
     font-weight: bold;
+    cursor: pointer;
 }
