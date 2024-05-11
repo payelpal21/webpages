@@ -79,7 +79,7 @@ body {
 .vibes_ab p {
     font-size: larger;
     color: white;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .sub-header {
@@ -94,4 +94,29 @@ body {
 .about h1 {
     padding-top: 70px;
     font-size: 50px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icon {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5fc94a;
+    border: 1px solid #5fc94a;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+a {
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #e0f006;
+    border-color: #e0f006;
 }

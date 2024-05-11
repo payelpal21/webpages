@@ -135,6 +135,7 @@ hr{
     width: 100px;
     height: 30px;
     margin: auto;
+    margin-top: 20px;
     text-align: center;
     /* background-color: aqua; */
     border-radius: 20px;
@@ -143,4 +144,30 @@ hr{
 .container button:hover{
     cursor: pointer;
     background-color: rgb(62, 212, 62);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icon {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #29b80d;
+    border: 1px solid #29b80d;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+a {
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #0b3f01;
+    border-color: #0b3f01;
 }
