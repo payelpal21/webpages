@@ -5,6 +5,8 @@
 }
 body{
     background-color: #64e953;
+    position: relative;
+    overflow: hidden;
 }
 .div1{
     height: 50px;
@@ -14,10 +16,11 @@ body{
 }
 .div1_1 p{
      padding-top: 15px;
+     color: rgb(223, 255, 0);
 }
 .div1_1{
 width: 1150px;
-color: rgb(223, 255, 0);
+
 font-family: "Lora", cursive;
 /* border: 2px solid yellowgreen; */
 font-size: 15px;
