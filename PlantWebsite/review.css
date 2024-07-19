@@ -5,6 +5,7 @@
 }
 body{
     background-color: #64e953;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -58,7 +59,7 @@ cursor: pointer;
 
 /* Navigation Bar: Logo and Image */
 #logo{
-    margin: 10px 34px;
+    margin: 10px 24px;
 }
 
 #logo img{
@@ -67,15 +68,15 @@ cursor: pointer;
     filter: invert(100%);
 }
 .row {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 0;
     justify-content: space-between;
     display: flex;
 }
 .testimonials {
-    padding-top: 20px;
- 
+    margin-top: 1%;
     text-align: center;
 
 }
@@ -90,7 +91,7 @@ cursor: pointer;
     border-radius: 10px;
     margin-bottom: 2%;
     text-align: left;
-    background: #acc571;
+    background: #edf57f;
     padding: 35px 15px;
     display: flex;
     cursor: pointer;
