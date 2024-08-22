@@ -1,4 +1,3 @@
-
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector('#subt');
@@ -86,7 +85,6 @@ function newGame() {
     remaining.innerHTML = `${11 - numGuess} `;
     userInput.removeAttribute('disabled');
     startOver.removeChild(p);
-
     displayMessage(` `)
     
     playGame = true;
