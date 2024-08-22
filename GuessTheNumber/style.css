@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    width: 300px;
+    width: 400px;
     max-width: 750px;
     min-width: 480px;
     margin: 0 auto;
@@ -28,7 +28,7 @@ html {
     border-radius: 25px;
     font-size: 30px;
     border-style: none;
-    margin-top: 30px;
+    margin-top: 20px;
     /* margin-left: 50px; */
   }
   
@@ -36,11 +36,11 @@ html {
     background-color: #161616;
     color: #ffffff;
     width: 200px;
-    height: 50px;
+    height: 45px;
     border-radius: 10px;
     font-size: 20px;
     border-style: none;
-    margin-top: 50px;
+    margin-top: 30px;
     /* margin-left: 75px; */
   }
   
@@ -72,7 +72,7 @@ html {
     box-sizing: border-box;
     text-align: center;
     width: 450px;
-    height: 550px;
+    height: 590px;
     background-color: #474747;
     color: #fff;
     font-size: 25px;
@@ -89,4 +89,4 @@ html {
     font-size: 16px;
     text-align: center;
   }
-  
+ 
