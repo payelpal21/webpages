@@ -25,7 +25,7 @@ if(height===''|| height<=0 || isNaN(height)){
         resultsbox.innerHTML = `<span>weight = ${bmi}</span>`;
         results.innerHTML = (`your weight is under weight as you have ${bmi}`);
     }
-    else if(bmi=>18.6||bmi<=24.9){
+    else if(bmi >= 18.6 && bmi <= 24.9){
         resultsbox.innerHTML = `<span>weight = ${bmi}</span>`;
         results.innerHTML = (`your weight is normal as you have ${bmi}`);
     }
